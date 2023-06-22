@@ -7,4 +7,5 @@ export const useStore=create(set=>({
     atGithub: ()=> set({current: "github"}),
     menuState: true,
     setMenuState: ()=> set(state=>({menuState: !state.menuState})),
+    setMenuDefault: ()=> set(state=>({menuState: true}),)
 }))
