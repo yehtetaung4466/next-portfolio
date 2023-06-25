@@ -13,7 +13,7 @@ export default function Home() {
         priority={true}
         alt="profile picture" />
       </div>
-      <div className="w-full h-1/2 flex justify-center items-center text-gray-900 text-sm md:text-lg md:font-medium md:items-end">
+      <div className="w-full h-1/2 flex justify-center items-center text-gray-900 text-sm md:text-lg md:font-medium md:items-end px-2 sm:px-0">
         Hi,My name is Ye Htet Aung.I am 18 years old enthusiastic web developer.I have been studying web developement for certain amount of time and I have strong knowledge of html,css,tailwind,javascript,react,daisyui and python.Now,I am further exploring next.js.I am open to junior or intern opportunities.I have mentioned the ways to be in touch with me in contact page if your are interested.Thank you.
       </div>
     </div>
