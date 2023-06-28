@@ -4,7 +4,7 @@ import { useStore } from "@/stores/globalStore";
 export default function Togglebar(){
     const {setMenuState, setMenuDefault}  =useStore();
     return(
-       <div className=" relative  top-full h-60 w-36 bg-gray-50 grid z-30 shadow-md sm:hidden ">
+       <div className=" tran rounded-lg relative  top-full h-60 w-36 bg-gray-50 grid z-30 shadow-md sm:hidden ">
         <div className="">
             <svg onClick={setMenuState} className=" ml-auto" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg>
         </div>

@@ -6,8 +6,11 @@
     @apply radio radio-xs;
 }
 .text{
-    @apply  text-gray-600 text-lg font-semibold;
+    @apply ml-2 text-gray-600 text-lg font-semibold;
 }
 .listItems{
     @apply mr-4 text-gray-900 hover:text-sky-600;
+}
+.tran{
+    @apply transition-all delay-75 ease-in duration-500 ;
 }
