@@ -12,44 +12,20 @@ export default function Page(){
         <div className=" h-full w-full flex flex-col md:flex-row md:items-center">
             <div className="w-full h-1/2 flex flex-col justify-center items-center">
                <div className=" flex items-center">
-                 <span className=" text">HTML:</span>
-                 <Radio />
-                 <Radio />
-                 <Radio />
-                 <Radio />
-                 <Radioopact />
+                 <span className=" text">HTML:<progress className=" progress mb-0.5 w-32" max={100} value={70}/></span>
                </div>
                <div className=" flex items-center">
-                 <span className=" text ml-4">CSS:</span>
-                 <Radio />
-                 <Radio />
-                 <Radioopact />
-                 <Radioopact />
-                 <Radioopact />
+                 <span className="ml-6 text-gray-600 text-lg font-semibold">CSS:<progress className=" progress mb-0.5 w-32" max={100} value={50}/></span>
                </div>
                <div className=" flex items-center mr-9">
-                 <span className=" text">Javascript:</span>
-                 <Radio />
-                 <Radio />
-                 <Radio />
-                 <Radioopact />
-                 <Radioopact />
+                 <span className=" text">Javascript:<progress className=" progress mb-0.5 w-32" max={100} value={65}/></span>
                </div>
                <div className=" flex items-center mr-2">
-                 <span className=" text">Python:</span>
-                 <Radio />
-                 <Radio />
-                 <Radio />
-                 <Radioopact />
-                 <Radioopact />
+                 <span className=" text">Python:<progress className=" progress mb-0.5 w-32" max={100} value={65}/></span>
+
                </div>
                <div className=" flex items-center ml-5">
-                 <span className=" text">Php:</span>
-                 <Radio />
-                 <Radio />
-                 <Radioopact />
-                 <Radioopact />
-                 <Radioopact />
+                 <span className=" mr-12 text-gray-600 text-lg font-semibold">Typescript:<progress className=" progress mb-0.5 w-32" max={100} value={50}/></span>
                </div>
            </div>
            <div className="w-full h-1/2 grid grid-rows-2 grid-cols-3">
